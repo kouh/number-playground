@@ -1,3 +1,30 @@
 body{
-  
+  color: #2F2F2F;
+}
+
+#tbl{
+  margin: 1rem auto;
+  text-align: center;
+  vertical-align: middle;
+  border-collapse: collapse;
+  font-size: 1.3rem;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#tbl td{
+  border: 1px solid #2F2F2F;
+  transition: 0.5s;
+}
+
+#tbl td:hover{
+  background: #F5AB9E;
+}
+
+.hide{
+  color: transparent;
 }
