@@ -1,5 +1,3 @@
-
-
 $(function(){
   var $table = $('#tbl');
   var row = 10;
@@ -22,7 +20,4 @@ $(function(){
     }
     $table.append($tr);
   };
-
-  
-  
 });
